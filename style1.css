@@ -1,0 +1,388 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.header img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav a{
+    justify-content: space-between;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#ptext{
+    border: 1.5px solid rgb(81, 134, 214);
+    padding: 4px 10px;
+    margin: 4px;
+
+}
+
+.heroimg{
+    padding: 70px;
+    height: 90vh;
+    align-items: center;
+    background: url(/af5b91fd-8c37-44ea-ac3a-93a33c5a6c50.webp), linear-gradient(to right, rgba(189, 209, 6, 0.938), rgba(255, 0, 234, 0.404));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.text{
+    color: white;
+    padding: 80px;
+    margin: 50px;
+}
+.text button{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-color: aquamarine;
+    cursor: pointer;
+}
+.nav a:hover{
+    color: rgba(238, 25, 25, 0.37);
+    
+}
+
+.about{
+    text-align: center;
+    padding: 60px;
+
+}
+.features{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: -20px;
+    
+}
+.resp{
+    text-align: center;
+    margin: 40px;
+    background-color: rgb(63, 109, 109);
+}
+
+.designs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+.designs img{
+    width: 37%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.designs button{
+    background-color: rgb(15, 15, 15);
+    color: rgba(243, 244, 245, 0.808);
+    width: 40%;
+    padding: 15px;
+}
+.designs.texts{
+    color: rgb(20, 19, 19);
+    padding: 20px;
+    font-size: 22px;
+}
+.texts h4{
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+
+.teams{
+    text-align: center;
+    padding: 20px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teams h5{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(14, 13, 13, 0.979);
+    text-shadow: 15px;
+    padding: 20px;
+
+}
+.teams p{
+    font-size: 16px;
+    
+}
+
+
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 20px;
+}
+.team img{
+    height: auto;
+    width: 100%;
+}
+.team .members{
+    text-align: left;
+    width: 300px;
+    box-shadow: 0px 2px 10px 2px rgb(92, 91, 91);
+}
+
+.team h6{
+    font-size: 18px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+.texts{
+    padding: 20px;
+}
+#btn{
+    width: 100%;
+    background-color: rgba(141, 120, 128, 0.425);
+    border: none;
+    padding: 13px;
+    
+}
+
+.boxes{
+    background-color: rgb(92, 94, 94);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    color: white;
+}
+
+.portfolio{
+    text-align: center;
+}
+.portfolios h3{
+    margin-top: 50px;
+}
+
+.trial{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.trials{
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 2px 10px 2px rgb(92, 91, 91);
+    margin-bottom: 50px;
+}
+.skills-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900%;
+    padding: 50px;
+}
+.skill-bar{
+    overflow: hidden;
+    height: 30px;
+    background-color: #a7a7a7;
+}
+.skill-fill{
+    height: 100%;
+    text-align: center;
+    background-color: #686767;
+    color: white;
+}
+.skills-bars{
+    width: 45%;
+}
+.skills-texts{
+    width: 45%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skill{
+    margin: 20px;
+}
+
+/*sections*/
+.sections{
+text-align: center;
+color: #333;
+margin: 60px auto;
+max-width: 1000px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.skill-card{
+    padding: 20px;
+    text-align: left;
+    background: #ece7e7;
+    border: 1px solid;
+    border-radius: 8px;
+
+}
+.progress{
+    background: whitesmoke;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress-fill{
+    height: 100%;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5px;
+    color: #3d3b3b;
+    background: linear-gradient(90deg, #007bff, #3399ff);
+}
+.sections h4{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.sections p{
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+
+.pricing{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: Helvetica;
+}
+.list-cards{
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.list-cards button{
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+.sign-up{
+    background-color: rgb(221, 221, 220);
+    padding: 17px;
+}
+.lists{
+    background-color: white;
+    margin-top: -20px;
+    margin-bottom: -17px;
+}
+.total{
+    background-color: rgb(90, 91, 92);
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+.basic h4{
+    font-size: 25px;
+}
+
+
+.contact-section{
+    background-color: #e9e7e7;
+    
+}
+
+.contact-s{
+    text-align: center;
+    margin-top: -20px;
+}
+.contact-s p{
+    font-size: 20px;
+}
+.cs{
+    padding: 10px;
+    font-size: 30px;
+}
+.cs i{
+    margin: 15px;
+}
+.cs p{
+    margin: 0px;
+}
+input{
+    margin: 15px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid rgb(177, 175, 175);
+} 
+.btnn{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    width: 15%;
+    border: none;
+}
+form{
+    padding: 20px;
+}
+.photo img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.photo{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.footer{
+    text-align: center;
+    padding: 60px 20px;
+    background: #222;
+    color: #f4f4f4;
+    margin-top: 40px;
+}
+.social-icons{
+    margin: 20px;
+}
+.footer .top{
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #f4f4f4;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+.top:hover{
+    background: #ddd;
+}
+.social-icons a{
+    color: #ccc;
+    font-size: 20px;
+
+}
+.footer .power{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer .power a{
+    color: #ccc;
+    text-decoration: underline;
+}

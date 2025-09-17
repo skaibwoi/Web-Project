@@ -1,0 +1,280 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/*this is header styling */
+.header{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    margin: 40px;
+    color: black;
+
+}
+
+.nav a:hover{
+    color: rgb(55, 139, 66);
+}
+
+/*this is HERO SECTION */
+.heroimg{
+    padding: 80px;
+    align-items: center;
+    background-image: url(/dsc_2049_60809-564c6f63611b8.webp), linear-gradient(to right, rgba(0, 128, 0, 0.527), rgba(67, 67, 173, 0.658));
+    color: white;
+    height: 70vh;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.text button{
+    color: brown;
+    padding: 10px;
+    
+    width: 20%;
+    border-radius: 5px;
+}
+
+/* ABOUT PAGE STYLING*/
+.about{
+    text-align: center;
+    padding: 10px;
+}
+
+/*FEATURES STYLING SECTION */
+.features{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    
+
+}
+.LOVE{
+    text-align: center;
+    background-color: rgb(204, 129, 200);
+    padding: 20px;
+
+}
+.GOD{
+    text-align: center;
+    background-color: rgb(212, 131, 38);
+    padding: 20px;
+}
+.JOY{
+    text-align: center;
+    background-color: rgb(192, 188, 184);
+    padding: 20px;
+}
+.MORE{
+    text-align: center;
+    background-color: rgb(82, 136, 150);
+    padding: 20px;
+}
+
+/*DESIGN STYLING SECTION*/
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+.design img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.design button{
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    color: rgba(243, 244, 245, 0.808);
+    width: 50%;
+}
+.design text{
+    color: rgb(20, 19, 19);
+    padding: 20px;
+    font-size: 15px;
+}
+.text h4{
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+
+/*TEAMS STYLING*/
+.team{
+    text-align: center;
+    padding: 20px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.teams{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px;
+}
+.teams .member{
+    text-align: left;
+    width: 300px;
+    box-shadow: 0px 2px 10px 2px rgb(92, 91, 91);
+}
+.teams img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.texts{
+    padding: 20px;
+}
+
+
+#btn{
+    width: 100%;
+    background-color: rgba(141, 120, 128, 0.425);
+    border: none;
+    padding: 13px;
+    
+}
+.team h5{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(14, 13, 13, 0.979);
+    text-shadow: 15px;
+    padding: 20px;
+
+}
+.team p{
+    font-size: 16px;
+    
+}
+.teams h6{
+    font-size: 18px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+
+/*BOX SECTION*/
+.boxx{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #686767;
+    color: white;
+    padding: 50px 20px;
+}
+
+/*WORK SECTION STYLING*/
+
+.work h3{
+    text-align: center;
+    font-size: 27px;
+    margin-top: 130px;
+    font-family: 'Gill Sans';
+    font-weight: lighter;
+}
+.work p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.gallery{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -35px;
+}
+.images img{
+    margin: 5px;
+}
+
+.gallery1{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900%;
+    margin: auto;
+    padding: 50px;
+}
+.bar{
+    
+    overflow: hidden;
+    height: 30px;
+    background-color: #a7a7a7;
+}
+.bar-fill{
+    height: 100%;
+    text-align: center;
+    background-color: #686767;
+    color: white;
+}
+.skillbar{
+    width: 45%;
+}
+.txt{
+    width: 45%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skill{
+    margin: 20px;
+}
+
+.pricing{
+    text-align: center;
+    padding: 20px;
+}
+.p-cards{
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+
+}
+.price{
+    padding: 20px;
+}
+.p-cards button{
+    padding: 20px;
+    margin: 15px;
+    color: aliceblue;
+    background-color:black ;
+    border: none;
+}
+.signup{
+    background-color: rgba(190, 157, 115, 0.5);
+    padding: 10px;
+}
+.pricing-cards{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.sum{
+    background-color: #a7a7a7;
+}
+.fts{
+    background-color: white;
+    margin-top: -20px;
+}
+
